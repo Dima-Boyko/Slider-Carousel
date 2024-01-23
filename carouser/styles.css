@@ -1,0 +1,33 @@
+.SliderCarousel{
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  top: 100px;
+  border: dashed 1px #000;
+}
+
+.SliderCarousel .el{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+  background: #fff;
+  cursor: pointer;
+  top: 40px;
+  z-index: 10;
+}
+
+
+.SliderCarousel .scLeft{
+  display: block;
+}
+.SliderCarousel .scCanter{
+  display: block;
+}
+.SliderCarousel .scRight{
+  display: block;
+}
+.SliderCarousel .scNone{
+  display: none;
+}
